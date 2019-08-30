@@ -1,0 +1,9 @@
+use mydb;
+
+create table user(
+id int NOT NULL AUTO_INCREMENT,
+first_name varchar(25),
+last_name varchar(25),
+user_name varchar(25),
+PRIMARY KEY(id)
+);
